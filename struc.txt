@@ -1,0 +1,19 @@
+FUNCTION ins(tab,b) : 
+VAR
+   i,j,c,n:INTEGER;
+
+BEGIN
+    FOR i FROM 1 TO n.length-2 step  DO
+        c=tab[i];
+        j= i-1
+    END_FOR
+
+
+    WHILE (j>=0 && tab[j]>c) DO
+        a[j+1]= tab[j]
+        j=j-1
+    END_WHILE
+    tab[j+1]=c
+
+
+END
